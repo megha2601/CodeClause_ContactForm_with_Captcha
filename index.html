@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+</head>
+
+<body>
+		<div class="container">
+				<form action="action_page.php">
+			
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="australia">Australia</option>
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+						<option value="india">India</option>
+						<option value="uk">UK</option>
+						<option value="germany>Germany</option>
+					</select>
+			
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					<h3>Captcha<h3>
+					<div id="captchaBackground">
+							<canvas id="captcha">captcha text</canvas>
+							<input id="textBox" type="text" name="text">
+							<div id="buttons">
+									<input id="submitButton" type="Submit" value="Validate">
+									<button id="refreshButton" type="submit">Refresh</button>
+							</div>
+							<span id="output"></span>
+					</div>
+					<br>
+					<input type="submit" value="Submit">
+			
+				</form>
+			</div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

@@ -1,9 +1,6 @@
-# CodeClause_ContactForm_with_Captcha
+# ContactForm_with_Captcha
 Created with CodeSandbox
 
-# CodeClause Internship Project
-
-This project is made for CodeClause internship. This is made using CodeSandbox.
 
 ## Usage
 
